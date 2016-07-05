@@ -1,0 +1,71 @@
+
+body {
+    background: #121212;
+    background-image: url(../img/phon.png);
+    background-repeat: no-repeat;
+     background-size: 100% auto;
+     padding-left: 50px;
+    padding-right: 50px;   
+    font-family: Tahoma;
+    color: #e6e6e6;
+}
+.logo {
+     float: left;
+     padding-left: 70px;
+     padding-top: 50px;
+}
+.logotip {
+     height: 200px;
+}
+.contacts {
+     float: right;
+     padding-right: 80px;
+     padding-top: 185px;
+     line-height: 1.5;       
+}
+.cont1 {
+     font-size: 18px;
+}
+.cont2 {
+     font-size: 12px;
+}
+/* .cherta {
+     clear: both;
+     height: 1px; 
+     width: 100%;    
+} */
+main { 
+     clear: both;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     padding-bottom: 150px;
+     font-size: 22px;
+}
+.box1 {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 80px;
+     margin-right: 5px;
+     margin-left: 5px;
+}
+.box2, .box3 {
+     display: flex;
+}
+.box2 {
+     width: 380px;
+}
+a {
+    text-decoration: none;
+    color:#e6e6e6; 
+}
+footer {
+     padding: 30px;
+     text-align:  center;
+     font-size: 14px;    
+}
+
